@@ -34,6 +34,40 @@ h1 {
     background-color: blue;
 }
 
+.plan_selection, h2 {
+    height: 100px;
+    background-color:   brown;
+}
+
+
+.desc_plan {
+    background-color: black;
+}
+
+.plans {
+    height: 1000px;
+}
+
+.first_plan {
+    background-color: aqua;
+}
+
+.second_plan {
+    background-color: chartreuse;
+}
+
+.third_plan {
+    background-color: crimson;
+}
+
+.forth_plan {
+    height: 150px;
+    background-color: teal;
+}
+
+
+
+
 
 /* fine debug*/
 
@@ -81,4 +115,36 @@ h1 {
 
 .image {
     width: 70%;
+}
+
+.seconda_sec_interno {
+    width: 1000px;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.desc_plan {
+    display: flex;
+    padding: 20px;
+}
+
+.plans {
+    width: calc(100% / 3);
+}
+
+.first_plan {
+
+}
+
+.second_plan {
+
+}
+
+.third_plan {
+
+}
+
+.forth_plan {
+    width: calc(1000px - 40px);
+    margin: 70px auto;
 }
