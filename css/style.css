@@ -20,9 +20,19 @@ h1 {
     background-color: black;
 }
 
-.
+.colonne_due {
+    height: 350px;
+    background-color: bisque;
+    display: flex;
+}
 
+.paragrafo {
+    background-color: blueviolet;
+}
 
+.image {
+    background-color: blue;
+}
 
 
 /* fine debug*/
@@ -61,3 +71,14 @@ h1 {
     max-width: 1170px;
 }
 
+.colonne_due {
+    width: 100%;
+}
+
+.paragrafo {
+    width: 30%;
+}
+
+.image {
+    width: 70%;
+}
