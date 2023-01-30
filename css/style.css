@@ -65,6 +65,16 @@ h1 {
     background-color: teal;
 }
 
+.box_options {
+    background-color: darkcyan;
+    height: 700px;
+}
+
+.option {
+    height: calc(100% / 2);
+    background-color: blanchedalmond;
+    border: dashed 3px black;
+}
 
 
 
@@ -117,7 +127,7 @@ h1 {
     width: 70%;
 }
 
-.seconda_sec_interno {
+.seconda_sec_interno, .terza_sec_interno, .quarta_sec_interno {
     width: 1000px;
     margin: auto;
     padding: 80px 0;
@@ -147,4 +157,19 @@ h1 {
 .forth_plan {
     width: calc(1000px - 40px);
     margin: 70px auto;
+}
+
+.terza_sec {
+
+}
+
+.box_options {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+}
+
+.option {
+    width: calc(100% / 3);
 }
