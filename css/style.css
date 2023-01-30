@@ -77,6 +77,24 @@ h1 {
 }
 
 
+.quinta_sec {
+    background-color: darkcyan;
+}
+.quinta_sec_interno {
+    background-color: crimson;
+}
+
+.cliente {
+    height: 350px;
+}
+
+.cliente_desc {
+    height: 700px;
+}
+
+.prova_gratuita {
+    background-color: blue;
+}
 
 
 /* fine debug*/
@@ -127,7 +145,7 @@ h1 {
     width: 70%;
 }
 
-.seconda_sec_interno, .terza_sec_interno, .quarta_sec_interno, .quinta_sec_interno {
+.seconda_sec_interno, .terza_sec_interno, .quarta_sec_interno, .quinta_sec_interno, .sesta_sec_interno {
     width: 1000px;
     margin: auto;
     padding: 80px 0;
@@ -172,4 +190,30 @@ h1 {
 
 .option {
     width: calc(100% / 3);
+}
+
+.clienti {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.cliente {
+    width: 350px;
+    border: dashed 3px orange;
+}
+
+.cliente_desc {
+    width: 700px;
+}
+
+#primo_basso{
+    align-items: center;
+}
+
+.prova_gratuita {
+    width: 100%;
 }
