@@ -84,6 +84,26 @@ h1 {
     background-color: crimson;
 }
 
+.sezioni_clienti {
+    background-color: aquamarine;
+    height: calc(100vh / 3)
+}
+
+.clienti_sx {
+    background-color: cornflowerblue;
+    height: 100%;
+}
+
+.clienti_centro {
+    background-color: bisque;
+    height: 100%;
+}
+
+.clienti_dx {
+    background-color: burlywood;
+    height: 100%;
+}
+
 .cliente {
     height: 350px;
 }
@@ -207,10 +227,23 @@ h1 {
     width: calc(100% / 3);
 }
 
-.clienti {
+.sezioni_clienti {
+    margin: auto;
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.clienti_sx {
+    width: calc(100% / 3);
+}
+
+.clienti_centro {
+    width: calc(100% / 3);
+}
+
+.clienti_dx {
+    width: calc(100% / 3);
 }
 
 .cliente {
