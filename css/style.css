@@ -210,24 +210,22 @@ h1 {
 .clienti {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
-
-
 
 .cliente {
     width: 350px;
     border: dashed 3px orange;
 }
 
+.giu {
+    align-items: flex-end;
+    justify-content: flex-start;
+}
 .cliente_desc {
-    width: 700px;
+    flex-basis: 700px;
 }
 
-#primo_basso{
-    align-items: center;
-}
 
 .prova_gratuita {
     width: 100%;
