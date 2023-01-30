@@ -79,6 +79,7 @@ h1 {
 
 .quinta_sec {
     background-color: darkcyan;
+    margin-bottom: 200px;
 }
 .quinta_sec_interno {
     background-color: crimson;
@@ -86,26 +87,29 @@ h1 {
 
 .sezioni_clienti {
     background-color: aquamarine;
-    height: calc(100vh / 3)
+
 }
+
 
 .clienti_sx {
     background-color: cornflowerblue;
-    height: 100%;
+    
 }
 
 .clienti_centro {
     background-color: bisque;
-    height: 100%;
 }
 
 .clienti_dx {
     background-color: burlywood;
-    height: 100%;
 }
 
 .cliente {
-    height: 350px;
+    border: dashed 5px black;
+}
+
+.cliente_desc {
+    border: dashed 5px black;
 }
 
 .cliente_desc {
@@ -180,7 +184,7 @@ h1 {
     width: 70%;
 }
 
-.seconda_sec_interno, .terza_sec_interno, .quarta_sec_interno, .quinta_sec_interno, .sesta_sec_interno {
+.larghezza_small {
     width: 1000px;
     margin: auto;
     padding: 80px 0;
@@ -234,29 +238,38 @@ h1 {
     justify-content: center;
 }
 
+.col3 {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
 .clienti_sx {
-    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .clienti_centro {
-    width: calc(100% / 3);
+    
 }
 
 .clienti_dx {
-    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cliente {
-    width: 350px;
-    border: dashed 3px orange;
+    width: calc(100% / 2);
+    height: calc(100% /2);
 }
 
 .giu {
     align-items: flex-end;
     justify-content: flex-start;
 }
+
 .cliente_desc {
-    flex-basis: 700px;
+    height: 100%;
+    width: 100%;
 }
 
 
