@@ -96,7 +96,16 @@ h1 {
     background-color: blue;
 }
 
+.domanda {
+    height: 100px;
+    background-color: blanchedalmond;
+    border: dashed 5px black;
+}
 
+.colonna {
+    border: dashed 3px orange;
+    height: 600px;
+}
 /* fine debug*/
 
 header {
@@ -216,4 +225,23 @@ h1 {
 
 .prova_gratuita {
     width: 100%;
+}
+
+.domanda {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+}
+
+.link_vari {
+    display: flex;
+    width: 1170px;
+    padding: 10px;
+    margin: auto;
+}
+
+.colonna {
+    width: calc(100% / 5);
 }
