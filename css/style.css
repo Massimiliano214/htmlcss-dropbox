@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* debug*/
+
+header {
+    background-color: yellowgreen;
+}
+
+.prima_sec {
+    height: 600px;
+    background-color: aqua;
+}
+
+h1 {
+    height: 200px;
+    background-color: black;
+}
+
+.
+
+
+
+
+/* fine debug*/
+
+header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_sx {
+    width: 40%;
+    height: 70px;
+    background-color: orange;
+}
+
+.header_dx {
+    width: 40%;
+    height: 70px;
+    background-color: red;
+    justify-content: flex-end;
+}
+
+.prima_sec {
+    width: 100%;
+}
+
+.prima_sec_interno {
+    width: 1170px;
+    margin: auto;
+    padding: 80px 0;
+}
+
+h1 {
+    max-width: 1170px;
+}
