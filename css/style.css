@@ -10,23 +10,15 @@ body {
 }
 /* debug*/
 
-.prima_sec {
-    height: 600px;
-}
+
 
 h1 {
     height: 200px;
 }
 
 .colonne_due {
-    height: 350px;
     background-color: bisque;
-    display: flex;
-}
-
-
-.image {
-    background-color: blue;
+    
 }
 
 .plan_selection, h2 {
@@ -191,6 +183,7 @@ main {
 }
 
 .prima_sec {
+    height: 680px;
     width: 100%;
     background-color: #b4cfe5;
 }
@@ -208,6 +201,7 @@ main {
 
 .colonne_due {
     width: 100%;
+    display: flex;
 }
 
 .paragrafo {
@@ -215,11 +209,14 @@ main {
 }
 
 .paragrafo p {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
+.paragrafo .bottone {
+    padding: 10px;
+}
 .null {
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -227,8 +224,13 @@ main {
     font-size: 50px;
     padding-bottom: 50px;
 }
+
 .image {
     width: 70%;
+}
+
+.img {
+    width: 100%;
 }
 
 .larghezza_small {
