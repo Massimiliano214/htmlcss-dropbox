@@ -365,11 +365,25 @@ main {
     padding: 20px 0;
 }
 
+.larghezza_small h2 {
+    width: 50%;
+}
+
 .sezioni_clienti {
     margin: auto;
     width: 100vw;
     display: flex;
     justify-content: center;
+}
+
+.cliente {
+    display: flex;
+}
+
+.img_client {
+    width: 50%;
+    justify-content: center;
+    
 }
 
 .col3 {
