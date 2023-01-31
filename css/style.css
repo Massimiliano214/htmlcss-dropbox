@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-/* debug*/
-
-header {
-    background-color: yellowgreen;
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+/* debug*/
 
 .prima_sec {
     height: 600px;
@@ -141,6 +141,14 @@ h1 {
 header {
     height: 70px;
     width: 100%;
+    background-color: white;
+    position: fixed;
+    
+}
+
+.nav_head {
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -148,14 +156,42 @@ header {
 .header_sx {
     width: 40%;
     height: 70px;
-    background-color: orange;
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
 
 .header_dx {
     width: 40%;
     height: 70px;
-    background-color: red;
     justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.lista_head {
+    list-style-type: none;
+}
+
+.lista_head img {
+    padding: 15px;
+}
+.lista_head a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+li .bottone {
+    background-color: rgb(53, 88, 231);
+    border: solid 1px rgb(53, 88, 231);
+    padding: 5px 10px;
+    color: white;
+}
+
+main {
+    padding-top: 70px;
 }
 
 .prima_sec {
