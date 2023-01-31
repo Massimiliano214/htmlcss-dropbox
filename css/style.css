@@ -380,10 +380,28 @@ main {
     display: flex;
 }
 
+#cliente_bordo {
+    border: solid 10px rgba(255, 255, 255, 0.5);
+    background-color: rgb(158, 211, 158);
+}
+
+#client_rosso {
+    background-color: rgb(97, 2, 46);
+}
+
+#client_azz {
+    background-color: rgb(37, 146, 201);
+}
+
+#client_fuoco {
+    background-color: rgb(255, 0, 39);
+}
+
 .img_client {
-    width: 50%;
+    align-items: center;
     justify-content: center;
-    
+    width: 50%;
+    margin: auto;
 }
 
 .col3 {
@@ -391,18 +409,44 @@ main {
     height: calc(100vw / 3);
 }
 
+.corto {
+    width: 70px;
+    margin-top: 30px;
+    color: gray;
+}
 .clienti_sx {
     display: flex;
     flex-wrap: wrap;
 }
 
 .clienti_centro {
-    
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.cliente_desc p {
+    padding-bottom: 30px;
 }
 
 .clienti_dx {
     display: flex;
     flex-wrap: wrap;
+}
+
+#client_rossiccio {
+    background-color: rgb(203, 0, 37);
+}
+
+#client_sky {
+    background-color: rgb(179, 205, 227);
+}
+
+#client_blu {
+    background-color: rgb(35, 39, 124);
+}
+
+#client_giallo {
+    background-color: rgb(252, 215, 80);
 }
 
 .cliente {
