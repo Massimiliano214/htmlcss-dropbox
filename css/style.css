@@ -36,7 +36,7 @@ h1 {
 
 .box_options {
     background-color: darkcyan;
-    height: 700px;
+   
 }
 
 .option {
@@ -267,7 +267,11 @@ main {
 
 .info {
     padding: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+}
+
+#info_2 {
+    margin-top: -20px;
 }
 
 .info h3 {
@@ -349,12 +353,16 @@ main {
 .box_options {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
     width: 100%;
 }
 
 .option {
     width: calc(100% / 3);
+    padding: 20px;
+}
+
+.option h3 {
+    padding: 20px 0;
 }
 
 .sezioni_clienti {
