@@ -22,14 +22,9 @@ h1 {
 }
 
 .plan_selection, h2 {
-    height: 100px;
     background-color:   brown;
 }
 
-
-.desc_plan {
-    background-color: black;
-}
 
 .plans {
     height: 1000px;
@@ -141,20 +136,20 @@ header {
 }
 
 .header_sx {
-    width: 40%;
+    width: 50%;
     height: 70px;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .header_dx {
-    width: 40%;
+    width: 50%;
     height: 70px;
     justify-content: flex-end;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .lista_head {
@@ -239,18 +234,67 @@ main {
     padding: 80px 0;
 }
 
+ h2 {
+    padding-top: 70px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.circle_blue {
+    color: rgba(57, 90, 248, 0);
+    border: solid 5px rgb(57, 90, 248);
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.select_plan {
+    padding-bottom: 50px;
+
+}
+.circle_grey {
+    color: rgb(222, 222, 225);
+    font-size: 18px;
+    margin-left: 50px;
+}
+
 .desc_plan {
     display: flex;
-    padding: 20px;
+    justify-content: space-between;
 }
 
 .plans {
-    width: calc(100% / 3);
+    width: 30%;
 }
 
 .first_plan {
 
 }
+
+.tipo_plan{
+    text-align: center;
+    padding: 10px 0;
+    border: solid 1px black;
+}
+
+.info {
+    padding: 30px;
+
+}
+
+.specifiche {
+    position: relative;
+    padding: 10px;
+}
+
+.info_ico {
+    top: 13px;
+    left: -10px;
+    position: absolute;
+}
+
+.resize {
+}
+
 
 .second_plan {
 
