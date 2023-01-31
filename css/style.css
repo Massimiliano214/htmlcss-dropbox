@@ -189,6 +189,7 @@ main {
 
 .paragrafo {
     width: 30%;
+    padding: 10px;
 }
 
 .paragrafo p {
@@ -325,16 +326,25 @@ main {
     justify-content: space-between;
 }
 
-.specifiche {
-    width: 65%;
-}
 
 .specifiche h4 {
     padding-bottom: 70px;
 }
 
-.n_crescere {
-    margin-bottom: 300px;
+
+.specifiche_basso {
+    width: 65%;
+}
+
+.button_basso {
+    margin-top: 14px;
+}
+
+.bottone_bianco {
+    padding: 15px;
+    border: solid 1px black;
+    color: black;
+    text-decoration: none;
 }
 .box_options {
     display: flex;
