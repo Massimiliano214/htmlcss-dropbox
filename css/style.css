@@ -12,12 +12,10 @@ body {
 
 .prima_sec {
     height: 600px;
-    background-color: aqua;
 }
 
 h1 {
     height: 200px;
-    background-color: black;
 }
 
 .colonne_due {
@@ -26,9 +24,6 @@ h1 {
     display: flex;
 }
 
-.paragrafo {
-    background-color: blueviolet;
-}
 
 .image {
     background-color: blue;
@@ -183,11 +178,12 @@ header {
     margin: 15px;
 }
 
-li .bottone {
+.bottone {
     background-color: rgb(53, 88, 231);
     border: solid 1px rgb(53, 88, 231);
     padding: 5px 10px;
     color: white;
+    text-decoration: none;
 }
 
 main {
@@ -196,6 +192,7 @@ main {
 
 .prima_sec {
     width: 100%;
+    background-color: #b4cfe5;
 }
 
 .prima_sec_interno {
@@ -204,8 +201,9 @@ main {
     padding: 80px 0;
 }
 
-h1 {
+.prima_sec_interno h1 {
     max-width: 1170px;
+    font-size: 55px;
 }
 
 .colonne_due {
@@ -216,6 +214,19 @@ h1 {
     width: 30%;
 }
 
+.paragrafo p {
+    padding-bottom: 30px;
+}
+
+.null {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.arrow {
+    font-size: 50px;
+    padding-bottom: 50px;
+}
 .image {
     width: 70%;
 }
