@@ -21,9 +21,7 @@ h1 {
     
 }
 
-.plan_selection, h2 {
-    background-color:   brown;
-}
+
 
 
 
@@ -34,11 +32,6 @@ h1 {
 
 .third_plan {
     background-color: crimson;
-}
-
-.forth_plan {
-    height: 150px;
-    background-color: teal;
 }
 
 .box_options {
@@ -273,11 +266,16 @@ main {
 
 .info {
     padding: 30px;
-
+    padding-bottom: 50px;
 }
 
+.info h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
 .tempo {
     color: gray;
+    padding-bottom: 50px;
 }
 
 .specifiche {
@@ -318,14 +316,26 @@ main {
 }
 
 .forth_plan {
-    width: calc(1000px - 40px);
+    width: 100%;
     margin: 70px auto;
 }
 
-.terza_sec {
-
+.flex_button {
+    display: flex;
+    justify-content: space-between;
 }
 
+.specifiche {
+    width: 65%;
+}
+
+.specifiche h4 {
+    padding-bottom: 70px;
+}
+
+.n_crescere {
+    margin-bottom: 300px;
+}
 .box_options {
     display: flex;
     flex-wrap: wrap;
