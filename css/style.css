@@ -26,13 +26,7 @@ h1 {
 }
 
 
-.plans {
-    height: 1000px;
-}
 
-.first_plan {
-    background-color: aqua;
-}
 
 .second_plan {
     background-color: chartreuse;
@@ -125,6 +119,7 @@ header {
     width: 100%;
     background-color: white;
     position: fixed;
+    z-index: 999;
     
 }
 
@@ -262,23 +257,27 @@ main {
     justify-content: space-between;
 }
 
-.plans {
-    width: 30%;
+.type_plan {
+    border: solid 1px black;
 }
 
-.first_plan {
-
+.plans {
+    width: 30%;
 }
 
 .tipo_plan{
     text-align: center;
     padding: 10px 0;
-    border: solid 1px black;
+    border-bottom: solid 1px black;
 }
 
 .info {
     padding: 30px;
 
+}
+
+.tempo {
+    color: gray;
 }
 
 .specifiche {
@@ -292,16 +291,30 @@ main {
     position: absolute;
 }
 
-.resize {
+.ico_blue {
+    color: rgb(57, 94, 247);
 }
 
-
-.second_plan {
-
+.bott_try {
+    color: black;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
-.third_plan {
+.bott_size {
+    padding: 10px 30px;
+}
 
+.intermezzo {
+    width: 50px;
+}
+
+.info h4 {
+    padding-bottom: 20px;
+}
+
+.blue {
+    color: rgb(54, 83, 235);
 }
 
 .forth_plan {
