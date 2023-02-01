@@ -15,7 +15,7 @@ header {
     background-color: white;
     position: fixed;
     z-index: 999;
-    box-shadow: 0 1px 0px grey;   
+    box-shadow: 0 1px 0px lightgray;   
 }
 
 .nav_head {
@@ -83,6 +83,7 @@ main {
     max-width: 1170px;
     font-size: 55px;
     padding-bottom: 60px;
+    font-weight: bolder;
 }
 
 .colonne_due {
@@ -184,14 +185,19 @@ main {
     padding-bottom: 50px;
 }
 
-#info_2 {
-    margin-top: -20px;
+.mb_20 {
+    margin-bottom: 20px;
 }
 
 .info h3 {
     font-size: 25px;
     padding-bottom: 20px;
 }
+
+.costo {
+    font-weight: bolder;
+}
+
 .tempo {
     color: gray;
     padding-bottom: 50px;
@@ -200,6 +206,7 @@ main {
 .specifiche {
     position: relative;
     padding: 10px;
+    list-style-type: none;
 }
 
 .info_ico {
@@ -312,6 +319,10 @@ main {
     justify-content: center;
     max-width: 50%;
     margin: auto;
+    
+}
+.img_client:not(.client_center) {
+    filter: invert(100%)
 }
 
 .col3 {
@@ -397,6 +408,7 @@ main {
 
 .sez_dom {
     display: flex;
+    justify-content: space-between;
 }
 
 .domanda {
