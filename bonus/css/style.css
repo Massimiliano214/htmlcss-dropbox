@@ -244,6 +244,10 @@ main {
     padding-bottom: 40px;
 }
 
+.bb_1 {
+    padding-top: 20px;
+}
+
 .bott_size {
     padding: 10px 30px;
 }
@@ -274,7 +278,6 @@ main {
 .specifiche h4 {
     padding-bottom: 40px;
 }
-
 
 .specifiche_basso {
     max-width: 65%;
