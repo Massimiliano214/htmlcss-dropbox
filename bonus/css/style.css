@@ -432,6 +432,18 @@ main {
     justify-content: space-between;
 }
 
+.fa-chevron-up {
+    content-visibility: hidden;
+}
+
+.sez_dom:hover .fa-chevron-down {
+    display: none;
+}
+
+.sez_dom:hover .fa-chevron-up {
+    content-visibility: visible;
+}
+
 .domanda {
     display: flex;
     max-width: 80%;
