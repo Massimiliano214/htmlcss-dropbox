@@ -29,8 +29,8 @@ header {
     width: 50%;
     height: 70px;
     display: flex;
-    padding: 5px;
-    line-height: 60px;
+    padding: 0 5px;
+    line-height: 70px;
 }
 
 .header_dx {
@@ -38,12 +38,24 @@ header {
     height: 70px;
     justify-content: flex-end;
     display: flex;
-    line-height: 60px;
-    padding: 5px;
+    line-height: 70px;
+    padding: 0 5px;
 }
 
 .lista_head {
     list-style-type: none;
+}
+
+.lista_head:hover:not(.no){
+    border-bottom: solid 1px rgb(54, 94, 248);
+}
+
+.bottone:hover {
+    background-color: rgba(53, 88, 231, 0.8);
+}
+
+.bottone_bianco:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .lista_head img {
