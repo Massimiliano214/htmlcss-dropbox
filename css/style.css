@@ -29,8 +29,8 @@ header {
     width: 50%;
     height: 70px;
     display: flex;
-    align-items: center;
     padding: 5px;
+    line-height: 60px;
 }
 
 .header_dx {
@@ -38,7 +38,7 @@ header {
     height: 70px;
     justify-content: flex-end;
     display: flex;
-    align-items: center;
+    line-height: 60px;
     padding: 5px;
 }
 
@@ -49,12 +49,17 @@ header {
 .lista_head img {
     padding: 15px;
 }
-.lista_head a {
+.lista_head a:not(.bottone) {
     text-decoration: none;
     color: black;
-    margin: 15px;
+    margin: 0 15px;
+    height: 100%;
+    display: inline-block;
 }
 
+.bottone_header {
+    margin-right: 20px;
+}
 .bottone {
     background-color: rgb(53, 88, 231);
     border: solid 1px rgb(53, 88, 231);
@@ -183,10 +188,6 @@ main {
 .info {
     padding: 30px;
     padding-bottom: 50px;
-}
-
-.mb_20 {
-    margin-bottom: 20px;
 }
 
 .info h3 {
@@ -395,9 +396,17 @@ main {
     color: rgb(95, 0, 44);
 }
 
+.spazio_mezzo {
+    justify-content: space-evenly;
+}
+
+.prima_colonna {
+    max-width: 60%;
+}
 
 .seconda_colonna {
     padding-top: 100px;
+    max-width: 40%;
 }
 
 .prova_gratuita {
