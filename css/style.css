@@ -14,7 +14,8 @@ header {
     width: 100%;
     background-color: white;
     position: fixed;
-    z-index: 999;    
+    z-index: 999;
+    box-shadow: 0 1px 0px grey;   
 }
 
 .nav_head {
@@ -67,15 +68,15 @@ main {
 }
 
 .prima_sec {
-    height: 680px;
-    width: 100%;
+    max-width: 100%;
     background-color: #b4cfe5;
 }
 
 .prima_sec_interno {
-    width: 1170px;
+    max-width: 1170px;
     margin: auto;
-    padding: 80px 0;
+    position: relative;
+    top: 80px;
 }
 
 .prima_sec_interno h1 {
@@ -85,17 +86,17 @@ main {
 }
 
 .colonne_due {
-    width: 100%;
+    max-width: 100%;
     display: flex;
 }
 
 .paragrafo {
-    width: 30%;
+    max-width: 30%;
     padding: 10px;
 }
 
 .paragrafo_destra {
-    width: 40%;
+    max-width: 40%;
     padding: 10px 0 20px 20px;;
 }
 .paragrafo_destra p, .paragrafo p{
@@ -116,18 +117,18 @@ main {
 }
 
 .image {
-    width: 60%;
+    max-width: 60%;
 }
 
 .jumbotron {
-    width: 70%;
+    max-width: 70%;
 }
 .img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .larghezza_small {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     padding: 80px 0;
 }
@@ -169,7 +170,7 @@ main {
 }
 
 .plans {
-    width: 30%;
+    max-width: 30%;
 }
 
 .tipo_plan{
@@ -222,7 +223,7 @@ main {
 }
 
 .intermezzo {
-    width: 50px;
+    max-width: 50px;
 }
 
 .info h4 {
@@ -234,7 +235,7 @@ main {
 }
 
 .forth_plan {
-    width: 100%;
+    max-width: 100%;
     margin: 70px auto;
 }
 
@@ -250,7 +251,7 @@ main {
 
 
 .specifiche_basso {
-    width: 65%;
+    max-width: 65%;
 }
 
 .button_basso {
@@ -272,7 +273,7 @@ main {
 }
 
 .option {
-    width: calc(100% / 3);
+    max-width: calc(100% / 3);
     padding: 20px;
 }
 
@@ -284,13 +285,9 @@ main {
 
 .sezioni_clienti {
     margin: auto;
-    width: 100vw;
+    max-width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.cliente {
-    display: flex;
 }
 
 #cliente_bordo {
@@ -313,17 +310,17 @@ main {
 .img_client {
     align-items: center;
     justify-content: center;
-    width: 50%;
+    max-width: 50%;
     margin: auto;
 }
 
 .col3 {
-    width: calc(100vw / 3);
+    max-width: calc(100vw / 3);
     height: calc(100vw / 3);
 }
 
 .corto {
-    width: 70px;
+    max-width: 70px;
     margin-top: 30px;
     color: gray;
 }
@@ -366,6 +363,7 @@ main {
 .cliente {
     width: calc(100% / 2);
     height: calc(100% /2);
+    display: flex;
 }
 
 .giu {
@@ -375,11 +373,11 @@ main {
 
 .cliente_desc {
     height: 100%;
-    width: 100%;
+    max-width: 100%;
 }
 
 .h2_50 {
-    width: 60%;   
+    max-width: 60%;   
 }
 
 .h2_colore {
@@ -392,7 +390,7 @@ main {
 }
 
 .prova_gratuita {
-    width: 100%;
+    max-width: 100%;
     background-color: rgb(180, 207, 229);
 }
 
@@ -403,7 +401,7 @@ main {
 
 .domanda {
     display: flex;
-    width: 80%;
+    max-width: 80%;
     height: 80px;
     align-items: center;
     font-weight: bolder;
@@ -411,7 +409,7 @@ main {
 
 .apri_section {
     display: flex;
-    width: 20%;
+    max-width: 20%;
     padding-right: 50px;
     align-items: center;
     justify-content: flex-end;
@@ -423,14 +421,14 @@ footer {
 
 .link_vari {
     display: flex;
-    width: 1170px;
+    max-width: 1170px;
     margin: auto;
     padding-top: 30px;
     justify-content: space-between;
 }
 
 .colonna {
-    width: 15%;
+    max-width: 15%;
     padding: 20px 0;
     color: white; 
 }
@@ -449,7 +447,7 @@ footer {
     color: white;
 }
 .contiene_lingue {
-    width: 1170px;
+    max-width: 1170px;
     padding-top: 40px;
     margin: auto;
     padding-bottom: 100px;
@@ -457,7 +455,7 @@ footer {
 
 .lingua {
     height: 50px;
-    width: 100px;
+    max-width: 100px;
 }
 
 .gray_col {
